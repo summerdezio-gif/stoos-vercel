@@ -10,24 +10,39 @@
 
 <nav class="nav">
   <a href="index.html" class="nav__mark">Stoo<span>'</span>s Cards</a>
+  <div class="nav__links">
+    <a href="index.html" class="nav__link">Accueil</a>
+    <a href="collection.html" class="nav__link active">La Collection</a>
+  </div>
 </nav>
 
-<a href="index.html" class="back-link">← Retour à l'accueil</a>
-
 <header class="collection-head">
-  <h1>La collection</h1>
-  <p>L'ensemble des cartes créées, classées comme dans un vrai classeur. Chaque emplacement accueillera bientôt une carte.</p>
+  <div class="badge">Explore · Filtre · Vote</div>
+  <h1>La Collection</h1>
+  <p>L'ensemble des cartes créées. Ajoute une image dans le dossier <code>images</code> et remplace le nom de fichier ci-dessous pour l'afficher ici.</p>
 </header>
 
 <div class="binder">
-  <div class="slot">Carte 1</div>
-  <div class="slot">Carte 2</div>
-  <div class="slot">Carte 3</div>
-  <div class="slot">Carte 4</div>
-  <div class="slot">Carte 5</div>
-  <div class="slot">Carte 6</div>
-  <div class="slot">Carte 7</div>
-  <div class="slot">Carte 8</div>
+  <div class="slot">
+    <img src="images/carte-01.jpg" alt="Carte 1">
+    <div class="slot__info mono">Carte 01</div>
+  </div>
+  <div class="slot">
+    <img src="images/carte-02.jpg" alt="Carte 2">
+    <div class="slot__info mono">Carte 02</div>
+  </div>
+  <div class="slot">
+    <img src="images/carte-03.jpg" alt="Carte 3">
+    <div class="slot__info mono">Carte 03</div>
+  </div>
+  <div class="slot">
+    <img src="images/carte-04.jpg" alt="Carte 4">
+    <div class="slot__info mono">Carte 04</div>
+  </div>
+  <div class="slot"><div class="slot__empty">Emplacement libre</div></div>
+  <div class="slot"><div class="slot__empty">Emplacement libre</div></div>
+  <div class="slot"><div class="slot__empty">Emplacement libre</div></div>
+  <div class="slot"><div class="slot__empty">Emplacement libre</div></div>
 </div>
 
 </body>
